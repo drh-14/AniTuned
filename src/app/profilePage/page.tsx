@@ -9,9 +9,9 @@ export default function ProfilePage(){
         <div className = 'flex flex-col gap-16 items-center'>
             <Navbar></Navbar>
             <div className = 'flex flex-col items-center gap-8'>
-                <h1 className = 'text-4xl'>Your Linked MyAnimeList Profile</h1>
-                <h1>View MAL Profile</h1>
-                <Button variant = 'contained'>Change Linked Profile</Button>
+                <h1 className = 'text-4xl'>Your Linked AniList Profile</h1>
+                <h1>View AniList Profile</h1>
+                <Button sx ={{font: 'Poppins', backgroundColor: 'var(--color-indigo-500)'}} variant = 'contained'>Change Linked Profile</Button>
             </div>
         </div>
     )

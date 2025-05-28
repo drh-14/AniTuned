@@ -19,7 +19,7 @@ export default function Home() {
       <FeatureBox width = {400} height = {400} text = "Adjust your preferences, giving you anime and manga that fits what you want right now" imageLink = {filters}></FeatureBox>
       <FeatureBox  width = {2000} height = {2000} text = "Rate recommended anime and manga, improving future recommendation relevance and quality" imageLink = {ratings}></FeatureBox>
       </div>
-      <Button sx ={{font: 'Poppins', backgroundColor: 'var(--color-indigo-500)'}}size = "large" onClick = {() => router.push('/login')} variant = 'contained'>Get Started</Button>
+      <Button sx ={{font: 'Poppins', backgroundColor: 'var(--color-indigo-500)'}} size = "large" onClick = {() => router.push('/login')} variant = 'contained'>Get Started</Button>
     </div>
   );
 }
